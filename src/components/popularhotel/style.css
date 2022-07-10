@@ -1,0 +1,96 @@
+.hotelsec {
+    margin: 70px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hotelsec .mainh {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.hotelsec figure {
+    border: 1px solid #DDD;
+    margin: 0 120px;
+    padding: 20px;
+}
+
+.hotelsec figure .imagwithloc {
+    position: relative;
+}
+
+.hotelsec figure .imagwithloc img {
+    width: 100%;
+    margin: auto ;
+}
+
+.hotelsec figure .imagwithloc p {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: #FFF;
+    font-size: 17px;
+}
+
+.hotelsec figure .imagwithloc p i {
+    margin-right: 7px;
+}
+
+.hotelsec figure .stars {
+    margin-top: 10px;
+
+}
+
+.hotelsec figure .stars i {
+    margin-right: 7px;
+    font-size: 15px;
+}
+
+.hotelsec figure .hotelnfo h1 {
+    color: var(--greencolor);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.hotelsec figure .hotelnfo h1 span {
+    color: rgb(206, 203, 203);
+}
+
+.hotelsec figure .hotelnfo div:first-of-type {
+    height: 2px;
+    width: 50px;
+    background-color: #000;
+    margin: 10px auto;
+}
+
+.hotelsec figure .hotelnfo div:last-of-type {
+    height: 2px;
+    width: 100px;
+    background-color: #ddd;
+    margin: 10px auto;
+}
+
+
+
+.slick-slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slick-list {
+    width: 300%;
+}
+
+.slick-slide div {
+    margin-right: 20px;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .slick-list {
+        width: 100%;
+    }
+    
+}

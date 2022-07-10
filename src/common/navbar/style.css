@@ -1,0 +1,108 @@
+
+.navsec
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #222222;
+    padding: 20px 0;
+}
+.navsec .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.navsec .nav-left i
+{
+    color: #FFF;
+    font-size: 30px;
+}
+.navsec .nav-left .nav-menu
+{
+    position: fixed;
+    top: 70px;
+    right: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--greencolor); 
+    text-align: center;
+    padding: 30px 0;
+    transition: all .5s;
+}
+.actv
+{
+    right:0 !important
+}
+.navsec .nav-left li
+{
+    margin-bottom: 50px;
+}
+.navsec .nav-left li a
+{
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+
+.navsec .nav-right ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+.navsec .nav-right ul li a
+{
+    color: #707070;
+}
+.navsec .nav-right .alast
+{
+    background-color: var(--greencolor) ;
+    padding: 10px;
+    color: rgb(225, 223, 223);
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default if you use "mobile first" */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navsec .nav-left i
+    {
+        display: none;
+    }
+    .navsec .nav-left .nav-menu
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        padding: 0;
+        display: flex;
+        transition: none;
+    }
+    .navsec .nav-left li
+    {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+    .navsec .nav-left li a,
+    .navsec .nav-right li a
+    {
+        color: #707070;
+        font-size: 18px;
+    }
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

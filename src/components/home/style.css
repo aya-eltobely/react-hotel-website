@@ -1,0 +1,109 @@
+.headersec
+{
+    background-image: url('../../../public/images/slider-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+}
+.headersec article
+{
+    background-color: rgba(0, 0, 0, .6);
+    padding: 70px 40px;
+    width: 90%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: #FFF;
+}
+.headersec article h1
+{
+    font-size: 30px;
+}
+.headersec article h2
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.headersec article form input
+{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px 15px;
+    border: none;
+    outline: none;
+}
+.headersec article form div:nth-of-type(2)
+{
+    display: flex;
+    justify-content: space-between;
+}
+.headersec article form div:nth-of-type(2) input
+{
+    width: 49%;
+}
+
+.headersec article form input[type="submit"]
+{
+    width: 30%;
+    margin: 10px 0;
+    font-size: 17px;
+    padding: 15px 15px;
+    color: #FFF;
+    background-color: var(--greencolor);
+}
+
+.desthome
+{
+    background-color: #EAF8F1;
+    text-align: center;
+    padding: 50px 0;
+}
+.desthome>h1
+{
+    font-size: 40px;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default if you use "mobile first" */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .headersec article
+    {
+        background-color: rgba(0, 0, 0, .6);
+        padding: 70px 40px;
+        width: 60%;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        color: #FFF;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .headersec article
+    {
+        background-color: rgba(0, 0, 0, .6);
+        padding: 70px 40px;
+        width: 500px;
+        position: absolute;
+        top: 60px;
+        left: 100px;
+        color: #FFF;
+    }
+        
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,91 @@
+footer
+{
+    background-color: #000;
+    padding: 50px 0;
+    color: #FFF;
+}
+footer figure
+{
+    margin-bottom: 50px;
+}
+footer figure >h1
+{
+    margin-bottom: 20px;
+}
+footer figure >div p
+{
+    color: #A5988C ;
+    margin-bottom: 20px;
+}
+
+footer figure .social i
+{
+    background-color: #F5F5F5;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: #000;
+}
+footer figure:nth-of-type(2) ul li 
+{
+    margin-bottom: 10px;
+}
+footer figure:nth-of-type(2) ul li a,
+footer figure:nth-of-type(4) p
+{
+    color: #A5988C;
+}
+footer figure:nth-of-type(3) div
+{
+    margin-bottom: 20px;
+}
+footer figure:nth-of-type(3) div p
+{
+    margin-bottom: 2px;
+}
+
+footer figure:nth-of-type(4) .newsleter
+{
+    display: flex;
+    flex-direction: column;
+}
+footer figure:nth-of-type(4) .newsleter input
+{
+    padding: 20px;
+    margin-top: 10px;
+    width: 90%;
+}
+footer figure:nth-of-type(4) .newsleter input[type='submit']
+{
+    background-color: var(--greencolor);
+    color: #FFF;
+}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    footer .container
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    footer figure
+    {
+        width: 24%;
+    }
+    footer figure .social i
+    {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+        
+    
+    
+    }

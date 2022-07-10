@@ -1,0 +1,100 @@
+.contactsec
+{
+    margin: 70px 0;
+}
+.contactsec main figure >h1
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contactsec main figure >p,
+.contactsec main figure form label p
+{
+    color: #807770;
+}
+.contactsec main figure form
+{
+    margin-top: 30px;
+}
+.contactsec main figure form div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contactsec main figure form div label
+{
+    display: inline-block;
+    width: 95%;
+}
+.contactsec main figure form label p
+{
+    margin-bottom: 10px;
+}
+
+.contactsec main figure form div input,
+.contactsec main figure form textarea
+{
+    width: 95% ;
+    padding: 7px 10px;
+    outline: none;
+    resize: none;
+}
+.contactsec main figure form div input[type='submit']
+{
+    width: 150px;
+    padding: 15px 0;
+    background-color: var(--greencolor);
+    color: #FFF;
+    outline: none;
+    border: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.contactsec main article div
+{ 
+    margin-bottom: 30px;
+}
+.contactsec main article div h1
+{
+    margin-bottom: 10px;
+}
+
+.contactsec main article div p
+{
+    color:#807770
+}
+.contactsec main article .social i
+{
+    background-color: #F5F5F5;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+.contactsec main 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.contactsec main article
+{
+    width: 34%;
+    margin: 0;
+}
+.contactsec main figure
+{
+    width: 65%;
+} 
+
+    
+
+
+}

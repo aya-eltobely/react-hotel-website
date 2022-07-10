@@ -1,0 +1,77 @@
+.aboutcart
+{
+    margin: 70px 0;
+}
+
+.aboutcart article h6
+{
+    font-size: 20px;
+    color: var(--greencolor);
+}
+.aboutcart article h1
+{
+    font-size: 40px;
+    color: #000;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.aboutcart article p
+{
+    margin-bottom: 20px;
+}
+.aboutcart article a
+{
+    background-color: var(--greencolor);
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #FFF;
+    display: inline-block;
+}
+.aboutcart figure img
+{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.feat-h6
+{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default if you use "mobile first" */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .aboutcart .container
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .aboutcart article,
+    .aboutcart figure
+    {
+        width: 48%;
+    }
+    .aboutcart figure img
+    {
+        margin: 0;
+    }
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

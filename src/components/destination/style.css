@@ -1,0 +1,82 @@
+.destsec
+{
+    margin: 70px 0;
+}
+
+.destsec figure
+{
+    border: 1px solid rgb(211, 205, 205);
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.destsec figure h1
+{
+    font-weight: 400;
+    color: #FFF;
+    padding: 17px 0;
+    background-color: #2E9864;
+    margin-top: -4px;
+
+}
+.destsec img
+{
+    width: 100%;
+    transition: transform .5s;
+}
+.destsec .figdiv
+{
+    position: relative;
+}
+.destsec .figdiv i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: #FFF;
+    display: none;
+}
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default if you use "mobile first" */
+/* Small devices (landscape phones, 576px and up) */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .destsec article
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .destsec figure
+    {
+        width: 31% ;
+        margin-top: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .destsec .figdiv
+    {
+        overflow: hidden;
+    }
+    .destsec figure:hover img
+    {
+        transform: scale(1.3);
+        filter:contrast(40%);
+    }
+    .destsec figure:hover i
+    {
+        display: block; 
+    }
+
+}

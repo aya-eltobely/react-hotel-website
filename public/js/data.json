@@ -1,0 +1,253 @@
+{
+    "gallery" : [
+        {
+            "id":1,
+            "image": "images/gallery-1.jpg",
+            "title" : "Gallery One"
+        },
+        {
+            "id":2,
+            "image": "images/gallery-2.jpg",
+            "title" : "Gallery Two"
+        },
+        {
+            "id":3,
+            "image": "images/gallery-3.jpg",
+            "title" : "Gallery Three"
+        },
+        {
+            "id":4,
+            "image": "images/gallery-4.jpg",
+            "title" : "Gallery Four"
+        },
+        {
+            "id":5,
+            "image": "images/gallery-5.jpg",
+            "title" : "Gallery Five"
+        },
+        {
+            "id":6,
+            "image": "images/gallery-6.jpg",
+            "title" : "Gallery Six"
+        }
+    ] ,
+    "destination" : [
+        {
+            "id":1,
+            "image": "images/dest-1.jpg",
+            "title" : "Oriando"
+        },
+        {
+            "id":2,
+            "image": "images/dest-2.jpg",
+            "title" : "Miami"
+        },
+        {
+            "id":3,
+            "image": "images/dest-3.jpg",
+            "title" : "Los Angles"
+        },
+        {
+            "id":4,
+            "image": "images/dest-4.jpg",
+            "title" : "San Diego"
+        },
+        {
+            "id":5,
+            "image": "images/dest-5.jpg",
+            "title" : "Houston"
+        },
+        {
+            "id":6,
+            "image": "images/dest-6.jpg",
+            "title" : "New York"
+        }
+    ] ,
+    "hotel": [
+        {
+          "id": 1,
+          "image": "images/popular1.jpg",
+          "country": "Italy",
+          "name": "Hotel Valle",
+          "price": "$300.00"
+        },
+        {
+          "id": 2,
+          "image": "images/popular2.jpg",
+          "country": "Mexico",
+          "name": "Hotel Las Trojes",
+          "price": "$400.00"
+        },
+        {
+          "id": 3,
+          "image": "images/popular3.jpg",
+          "country": "United States",
+          "name": "Rosen Shingle Creek",
+          "price": "$500.00"
+        },
+        {
+          "id": 4,
+          "image": "images/popular4.jpg",
+          "country": "Thailand",
+          "name": "Ansan Hotel",
+          "price": "$100.00"
+        },
+        {
+          "id": 5,
+          "image": "images/popular5.jpg",
+          "country": "Vietnam",
+          "name": "Fawlty Tower",
+          "price": "$200.00"
+        },
+        {
+          "id": 6,
+          "image": "images/popular2.jpg",
+          "country": "Mexico",
+          "name": "Hotel Las Trojes",
+          "price": "$400.00"
+        },
+        {
+          "id": 7,
+          "image": "images/popular3.jpg",
+          "country": "United States",
+          "name": "Rosen Shingle Creek",
+          "price": "$500.00"
+        },
+        {
+          "id": 8,
+          "image": "images/popular4.jpg",
+          "country": "Thailand",
+          "name": "Ansan Hotel",
+          "price": "$100.00"
+        }
+    ],
+    "blog" : [
+        {
+          "id": 1,
+          "date": "January 01, 2020",
+          "catgeory": "Business ",
+          "title": "The Most Advance Business Plan",
+          "cover": "images/singlepage/blog-1.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        },
+        {
+          "id": 2,
+          "date": "January 15, 2021",
+          "catgeory": "Traveling",
+          "title": "Beautiful Home Page",
+          "cover": "images/singlepage/blog-2.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        },
+        {
+          "id": 3,
+          "date": "January 21, 2018",
+          "catgeory": "Developement",
+          "title": "Modern Design Concept",
+          "cover": "images/singlepage/blog-3.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        },
+        {
+          "id": 4,
+          "date": "January 30, 2019",
+          "catgeory": " Motion Designer",
+          "title": "Smart Flexible Visiting Card",
+          "cover": "images/singlepage/blog-4.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        },
+        {
+          "id": 5,
+          "date": "January 10, 2022",
+          "catgeory": "Content Writing",
+          "title": "Investment Planning",
+          "cover": "images/singlepage/blog-5.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        },
+        {
+          "id": 6,
+          "date": "January 18, 2021",
+          "catgeory": "Web Developement",
+          "title": "Why you Should Always First",
+          "cover": "images/singlepage/blog-6.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        },
+        {
+          "id": 9,
+          "date": "January 12, 2014",
+          "catgeory": "Business Strategy",
+          "title": "Smart Flexible Visiting Card",
+          "cover": "images/singlepage/blog-1.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        },
+        {
+          "id": 7,
+          "date": "January 30, 2019",
+          "catgeory": " Motion Designer",
+          "title": "Smart Flexible Visiting Card",
+          "cover": "images/singlepage/blog-4.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        },
+        {
+          "id": 8,
+          "date": "January 10, 2022",
+          "catgeory": "Content Writing",
+          "title": "Investment Planning",
+          "cover": "images/singlepage/blog-5.jpg",
+          "para": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet."
+        }
+      ],
+      "tdata" : [
+        {
+          "id": 1,
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.",
+          "name": "KEVIN MARTHIN",
+          "profile": "images/profile/profile1.jpg",
+          "post": "Developer"
+        },
+        {
+          "id": 2,
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.",
+          "name": "JOE GABRIEL",
+          "profile": "images/profile/profile2.jpg",
+          "post": "Designer"
+        },
+        {
+          "id": 3,
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.",
+          "name": "JOIN MANSOOR",
+          "profile": "images/profile/profile3.jpg",
+          "post": "Support-Marketing"
+        },
+        {
+          "id": 4,
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.",
+          "name": "SUSAN DAY",
+          "profile": "images/profile/profile4.jpg",
+          "post": "CEO"
+        },
+        {
+          "id": 5,
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.",
+          "name": "MICHAEL DAVID",
+          "profile": "images/profile/profile5.jpg",
+          "post": "Consultant"
+        },
+        {
+          "id": 6,
+          "desc": "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum. orem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.",
+          "name": "MEGAN MILLER",
+          "profile": "images/profile/profile6.jpg",
+          "post": "Founder"
+        }
+      ]
+    
+   
+}

@@ -1,0 +1,73 @@
+.blogcardsec
+{
+    margin:70px 0;
+}
+.blogcardsec figure
+{
+    border: 1px solid #DDD;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+    transition: background-color .5s;
+}
+.blogcardsec figure:hover
+{
+    background-color: var(--greencolor);
+}
+.blogcardsec figure:hover .bloginfo button
+{
+    background-color: #FFF;
+    color: var(--greencolor);
+}
+.blogcardsec figure:hover .bloginfo p,
+.blogcardsec figure:hover .bloginfo h2,
+.blogcardsec figure:hover .bloginfo a,
+.blogcardsec figure:hover .bloginfo a i
+{
+    color: #FFF;
+}
+.blogcardsec figure img
+{
+    width: 100%;
+    margin: auto;
+}
+.blogcardsec figure .bloginfo 
+{
+    position: relative;
+}
+.blogcardsec figure .bloginfo p
+{
+    color: rgb(127, 121, 121);
+    margin: 10px 0;
+}
+.blogcardsec figure .bloginfo button
+{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    background-color: var(--greencolor);
+    border: none;
+    padding: 7px 10px;
+    color: #FFF;
+    border-radius: 5px;
+}
+.blogcardsec figure .bloginfo a i
+{
+    color: var(--greencolor);
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+.blogcardsec article
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blogcardsec article figure
+{
+    width: 32%;
+}
+
+}

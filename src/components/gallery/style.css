@@ -1,0 +1,109 @@
+.gallsec
+{
+    margin: 70px 0;
+}
+
+.gallsec figure
+{
+    border: 1px solid rgb(211, 205, 205);
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gallsec figure h1
+{
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+.gallsec img
+{
+    width: 100%;
+    transition: transform .5s;
+}
+.gallsec .figdiv
+{
+    position: relative;
+}
+.gallsec .figdiv i
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: #FFF;
+    display: none;
+}
+
+.gallsec .popupgall
+{
+    position: relative;
+    z-index: 200;
+    display: none;
+}
+.gallsec .popupgall .poplayer
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+.gallsec .popupgall .popcontent
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+.gallsec .popupgall .popcontent i
+{
+    color: #FFF;
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default if you use "mobile first" */
+/* Small devices (landscape phones, 576px and up) */
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .gallsec article
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .gallsec figure
+    {
+        width: 31% ;
+        margin-top: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .gallsec .figdiv
+    {
+        overflow: hidden;
+    }
+    .gallsec figure:hover img
+    {
+        transform: scale(1.3);
+        filter:contrast(40%);
+    }
+    .gallsec figure:hover i
+    {
+        display: block; 
+    }
+
+}
