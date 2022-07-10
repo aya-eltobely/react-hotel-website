@@ -18,7 +18,7 @@ export default function Testimonialcard() {
         {
             return(
 
-                <figure>
+                <figure key={i.id}>
 
                     <p>{i.desc}</p>
 
